@@ -1,0 +1,49 @@
+body, html {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-image: url('./watch.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#stopwatch{
+    width: 500px;
+    height: 250px;
+}
+#displaytime{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    position: relative;
+    bottom: 50px;
+    left: 32px;
+}
+#btns{
+    /* border: 1px solid wheat; */
+    position: relative;
+    bottom: 40px;
+}
+.but{
+    height: 45px;
+    width: 95px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#stop{
+    margin-left: 25px;
+}
